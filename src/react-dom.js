@@ -1,4 +1,5 @@
-import { TAG_ROOT } from "./constants";
+import { TAG_ROOT } from "./constants.js";
+import { scheduleRoot } from './schedule.js'
 /**
  * 
  * @param {*} element 虚拟dom

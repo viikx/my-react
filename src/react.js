@@ -17,7 +17,7 @@ function createElement(type, config, ...children) {
       children: children.map(child => { // 兼容文本节点
         return typeof child === 'object' ? child : {
           type: ELEMENT_TEXT,
-          porps: { text: child, children: [] }
+          props: { text: child, children: [] }
         }
       })
     }
