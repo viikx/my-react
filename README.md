@@ -4,4 +4,4 @@
 
 - [x] React.createElement  
 - [x] ReactDOM.render  
-- [ ] schedule
+- [x] schedule
